@@ -11,8 +11,9 @@ class HomeController extends Controller
         return view('home', ['nama'=> $nama]);
     }
     public function biodata(){
-        $nama = 'Luffy D Monkey';
-        $mapel = ['Kualitas perangkat lunak', 'Mobile', 'Web'];
-        return view('home', ['nama' => $nama, 'mapel' => $mapel]);
+        $nama = 'Muhammad G Hisyam';
+        $umur = '19';
+        $mapel = ['Web','Mobile','Kualitas perangkat lunak'];
+        return view('home', ['nama' => $nama,'umur' => $umur, 'mapel' => $mapel]);
     }
 }

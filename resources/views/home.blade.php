@@ -26,6 +26,7 @@
             <h2>Selamat Datang di Portofolio saya</h2>
             <p>Temukan Karya-karya terbaru saya di sini</p>
             <p>Nama : {{$nama}}</p>
+            <p>Umur : {{$umur}}</p>
             <p>Mata Kuliah :</p>
             <ul>
                 @foreach ($mapel as $mp)
